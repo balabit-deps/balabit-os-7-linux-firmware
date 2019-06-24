@@ -1,3 +1,31 @@
+linux-firmware (1.173.8) bionic; urgency=medium
+
+  * add firmware and topology file for sound sof driver [cml/cnl]
+    (LP: #1833405)
+    - SAUCE: add firmware and topology for cml/cnl sof driver
+
+  * Intel WiFi (CNVi) module has no function on Comet Lake [8086:02f0]
+    (LP: #1833065)
+    - iwlwifi: add new firmwares for integrated 22000 series
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 24 Jun 2019 15:56:43 -0500
+
+linux-firmware (1.173.7) bionic; urgency=medium
+
+  * Add Intel CyclonePeak wifi firmware (LP: #1828133)
+    - iwlwifi: add firmware for 22260 and update 9000 series -46 firmwares
+    - iwlwifi: update -46 firmwares for 22260 and 9000 series
+
+  * Bluetooth: hci0: request failed to create LE connection: status 0x0c
+    (LP: #1829737)
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+
+  * Add firmware for RTL8822BE and RTL8822CE (LP: #1831833)
+    - rtw88: Add firmware file for driver rtw88
+    - rtw88: RTL8822C: update rtw8822c_fw.bin to v5.0
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 18 Jun 2019 06:53:53 -0500
+
 linux-firmware (1.173.6) bionic; urgency=medium
 
   * Bluetooth not working (Intel CyclonePeak) (LP: #1817518)

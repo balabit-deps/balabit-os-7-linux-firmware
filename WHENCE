@@ -1019,6 +1019,27 @@ Version: 41.fc1a7aea.0
 File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
+File: iwlwifi-cc-a0-46.ucode
+Version: 46.3cfab8da.0
+
+File: iwlwifi-Qu-b0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-b0-jf-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-c0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-c0-jf-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-QuZ-a0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-QuZ-a0-jf-b0-48.ucode
+Version: 48.13675109.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
@@ -2716,6 +2737,16 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtw88 - Realtek 802.11ac WLAN driver for RTL8822BE and RTL8822CE
+
+Info: Sent to Larry Finger by Realtek engineer Yan-Hsuan Chuang <yhchuang@realtek.com>
+File: rtw88/rtw8822b_fw.bin
+File: rtw88/rtw8822c_fw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE
 
 Info: Initial version taken from Realtek version
@@ -3145,13 +3176,13 @@ Version: BT_WindStormPeak_REL0185
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0185
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0440
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0440
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0440
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0440
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
