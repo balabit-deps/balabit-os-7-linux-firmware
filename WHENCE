@@ -1004,6 +1004,9 @@ Version: 41.fc1a7aea.0
 File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
+File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
+Version: 46.6bf1df06.0
+
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
 
@@ -1019,8 +1022,14 @@ Version: 41.fc1a7aea.0
 File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
+File: iwlwifi-9260-th-b0-jf-b0-46.ucode
+Version: 46.6bf1df06.0
+
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
+
+File: iwlwifi-cc-a0-48.ucode
+Version: 48.4fa0041f.0
 
 File: iwlwifi-Qu-b0-hr-b0-48.ucode
 Version: 48.13675109.0
@@ -1373,6 +1382,9 @@ File: bnx2x/bnx2x-e2-7.12.30.0.fw
 File: bnx2x/bnx2x-e1-7.13.1.0.fw
 File: bnx2x/bnx2x-e1h-7.13.1.0.fw
 File: bnx2x/bnx2x-e2-7.13.1.0.fw
+File: bnx2x/bnx2x-e1-7.13.11.0.fw
+File: bnx2x/bnx2x-e1h-7.13.11.0.fw
+File: bnx2x/bnx2x-e2-7.13.11.0.fw
 
 
 License:
@@ -3171,9 +3183,9 @@ Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_39_0001
+Version: BT_WilkinsPeak_B5_REL_42_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_39_0001
+Version: BT_WilkinsPeak_B5_REL_42_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
@@ -3701,11 +3713,17 @@ Version: Guc API/ABI ver 6 - release 1 for Skylake
 File: i915/skl_guc_ver9_33.bin
 Version: Guc API/ABI ver 9 - release 33 for Skylake
 
+File: i915/skl_guc_32.0.3.bin
+Version: Guc API/ABI ver 32 - release 0 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
 File: i915/bxt_huc_ver01_07_1398.bin
 Version: HuC API/APB ver 1 - release 7 for Broxton
+
+File: i915/bxt_huc_ver01_8_2893.bin
+Version: HuC API/APB ver 1 - release 8 for Broxton
 
 File: i915/kbl_huc_ver02_00_1810.bin
 Version: HuC API/APB ver 2 - for Kabylake
@@ -3716,11 +3734,23 @@ Version: Guc API/APB ver 8 - release 7 for Broxton
 File: i915/bxt_guc_ver9_29.bin
 Version: Guc API/APB ver 9 - release 29 for Broxton
 
+File: i915/bxt_guc_32.0.3.bin
+Version: Guc API/APB ver 32 - release 0 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
+
+File: i915/kbl_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Kabylake
+
+File: i915/glk_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Geminilake
+
+File: i915/glk_huc_ver03_01_2893.bin
+Version: Huc API/APB ver 3 release 1 for Geminilake
 
 File: i915/glk_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Geminilake
@@ -3733,6 +3763,12 @@ Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 
 File: i915/icl_dmc_ver1_07.bin
 Version: DMC API/ABI ver 1 - release 07 for icelake
+
+File: i915/icl_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Icelake
+
+File: i915/icl_huc_ver8_4_3238.bin
+Version: Huc API/APB ver 8 release 4 for Icelake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -4033,6 +4069,8 @@ Driver: btmtk - MediaTek Bluetooth Driver
 
 File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
+File: mediatek/mt7668pr2h.bin
+Version: 20180517181834
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4068,6 +4106,19 @@ File: mt7662_rom_patch.bin
 Version: 0.0.2_P69
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: mt7615e - MediaTek MT7615e Wireless MACs
+
+File: mediatek/mt7615_n9.bin
+Version: 20190114
+File: mediatek/mt7615_cr4.bin
+Version: 20190114
+File: mediatek/mt7615_rom_patch.bin
+Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
@@ -4187,9 +4238,10 @@ File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
 File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
 File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
 
 Licence:
- Copyright (c) 2017 Mellanox Technologies, Ltd. All rights reserved.
+ Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
